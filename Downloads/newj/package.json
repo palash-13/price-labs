@@ -1,0 +1,16 @@
+{
+  "name": "pricelabs-automation-qa",
+  "version": "1.0.0",
+  "description": "Cypress UI + API automation for PriceLabs Multicalendar DSO (Hybrid TDD / Data-Driven POM)",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
